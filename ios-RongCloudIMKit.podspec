@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks  = 'source/**/*.framework'
   s.resources='source/**/*.bundle'
   s.frameworks='AssetsLibrary','AudioToolbox','AVFoundation','CFNetwork','CoreAudio','CoreGraphics','CoreLocation','CoreMedia','CoreTelephony','CoreVideo','ImageIO','MapKit','OpenGLES','QuartzCore','SystemConfiguration','UIKit'
-  s.libraries='libc++','libc++abi','libsqlite3','libstdc++','libxml2','libz'
+  s.libraries='c++','c++abi','sqlite3','stdc++','xml2','z'
 end
